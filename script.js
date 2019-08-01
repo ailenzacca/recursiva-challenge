@@ -1,10 +1,3 @@
-// const csvToJson = require('convert-csv-to-json');
-
-// const json = csvToJson.getJsonFromCsv("socios.csv");
-// for(let i=0; i<json.length;i++){
-//     console.log(json[i])
-// }
-
 const csvFilePath = 'socios.csv'
 const csv = require('csvtojson')
 csv({
